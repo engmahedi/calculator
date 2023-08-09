@@ -2,6 +2,7 @@
 
 // Make calculator for Two Number using "if else" .
 
+
  function calculator(operator,num1,num2) {
   
   if (operator=='+') {
@@ -36,6 +37,8 @@ console.log('Modulus : '+ (calculator( '%', 23,2)));
 
 
 // Make calculator for Two Number using "switch" .
+
+
 /*
 function calculator(operator,num1, num2) {
   

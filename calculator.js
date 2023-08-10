@@ -4,7 +4,9 @@
 
 
  function calculator(operator,num1,num2) {
-  
+   
+   let result;
+   
   if (operator=='+') {
     result = num1 + num2;
     
@@ -38,10 +40,11 @@ console.log('Modulus : '+ (calculator( '%', 23,2)));
 
 // Make calculator for Two Number using "switch" .
 
-
 /*
+
 function calculator(operator,num1, num2) {
   
+let result;
 
   switch (operator) {
 
